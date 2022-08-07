@@ -53,30 +53,30 @@ EVE Online, the EVE logo, EVE and all associated logos and designs are the intel
 
 ## Systems
 
-Systems 8435
-J-space 2603
-DevTest 401
-UUA-F4  107
-K-space 5324
+* Systems 8435
+* J-space 2603
+* DevTest 401
+* UUA-F4  107
+* K-space 5324
 
-## Planets in K-space
+## Systems in K-space
 
-No planets 0
-1 planet 8
-2 planets 15
-3 planets 25
-4 planets 78
-5 planets 207
-6 planets 463
-7 planets 806
-8 planets 1095
-9 planets 1062
-10 planets 738
-11 planets 457
-12 planets 239
-13 planets 91
-14 planets 30
-15 planets 6
-16 planets 3
-17 planets 0
-18 planets 1
+* No planets 0
+* 1 planet 8
+* 2 planets 15
+* 3 planets 25
+* 4 planets 78
+* 5 planets 207
+* 6 planets 463
+* 7 planets 806
+* 8 planets 1095
+* 9 planets 1062
+* 10 planets 738
+* 11 planets 457
+* 12 planets 239
+* 13 planets 91
+* 14 planets 30
+* 15 planets 6
+* 16 planets 3
+* 17 planets 0
+* 18 planets 1
