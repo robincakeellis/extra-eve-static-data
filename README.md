@@ -8,6 +8,7 @@ The data is in the CCP Swagger interface [here](https://esi.evetech.net/ui/?vers
 
 So, given it is likely CCP have de-prioritised their efforts to provide full static data, I decided to hit that Swagger API like a boss so you do not have to it. It took a while from my slow Asia connection (big up Anajak Khmai).
 
+
 ## Systems not included
 
 * Any system id >= 31000001 including Wormhole J-Space
@@ -16,7 +17,8 @@ So, given it is likely CCP have de-prioritised their efforts to provide full sta
 
 * Any where constellation id in range 20000047 to 20000062 inclusive (for region `UUA-F4`)
 
-## planets.csv
+
+## planets.csv
 
 Planet data in CSV format using **tab separator** that imports fine in OpenOffice or similar modern spreadsheet. Tabs make column splitting easy for coders.
 
@@ -24,10 +26,11 @@ First few lines look like this (massaged for this readme):
 
 ```
 solarSystemID		planetID		planetName	planetTypeID		typeName		typeIconID
-30000001			40000002		Tanoo I		11				Temperate	10136
-30000001			40000005		Tanoo II		11				Temperate	10136
-30000001			40000007		Tanoo III	2016				Barren		10135
+30000001		40000002		Tanoo I		11				Temperate	10136
+30000001		40000005		Tanoo II		11				Temperate	10136
+30000001		40000007		Tanoo III	2016				Barren		10135
 ```
+
 
 ## mapPlanets.sql
 
