@@ -25,10 +25,10 @@ Planet data in CSV format using **tab separator** that imports fine in OpenOffic
 First few lines look like this (massaged for this readme):
 
 ```
-solarSystemID		planetID		planetName	planetTypeID	typeName		typeIconID
-30000001		40000002		Tanoo I		11			Temperate	10136
-30000001		40000005		Tanoo II	11			Temperate	10136
-30000001		40000007		Tanoo III	2016			Barren		10135
+solarSystemID	planetID	planetName	planetTypeID	typeName		typeIconID
+30000001	40000002	Tanoo I		11		Temperate	10136
+30000001	40000005	Tanoo II	11		Temperate	10136
+30000001	40000007	Tanoo III	2016		Barren		10135
 ```
 
 
