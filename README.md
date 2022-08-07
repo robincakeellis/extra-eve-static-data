@@ -12,6 +12,10 @@ Approximate number of calls made to the Swagger API: 58,905. List of systems; ea
 
 So, given it is likely CCP have de-prioritised their efforts to provide full static data, I decided to hit that Swagger API like a boss. It took a while from my slow Asia connection (big up Anajak Khmai). I hope to integrate this data as system trivia on [EVEMissioneer](https://EVEMissioneer.com).
 
+# Disclaimer
+
+This data is sourced from CCP (their copyright notice below). I make no claims to this data. I present this data for you to use as you wish on the understand that I offer no warranties of any kind. None. Zero. Do with this data as you wish subject to CCP terms.
+
 # Data as CSV or SQL
 
 ## First: systems not included
