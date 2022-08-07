@@ -1,6 +1,6 @@
 # extra-eve-static-data
 
-EVE ONLINE STATIC DATA FOR PLANETS PER SYSTEM.
+EVE ONLINE STATIC DATA FOR **PLANETS PER SYSTEM**.
 
 ## WHAT?
 
@@ -10,7 +10,7 @@ Planet data can be found though the CCP Swagger interface [here](https://esi.eve
 
 Approximate number of calls made to the Swagger API: 58,905. List of systems; each system; each planet; each type noted by a planet.
 
-So, given it is likely CCP have de-prioritised their efforts to provide full static data, I decided to hit that Swagger API like a boss. It took a while from my slow Asia connection (big up Anajak Khmai). I hope to integrate this data as system trivia on [EVEMissioneer](https://EVEMissioneer.com).
+So, given it is likely CCP have de-prioritised their efforts to provide full static data, I decided to hit that Swagger API like a boss. It took a while from my slow Asia connection (big up Anajak Khmer). I hope to integrate this data as system trivia on [EVEMissioneer](https://EVEMissioneer.com).
 
 # Disclaimer
 
