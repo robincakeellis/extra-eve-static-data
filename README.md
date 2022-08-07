@@ -49,34 +49,39 @@ Planet data in MySQL format. May work fine in other SQL databases. Inserts are b
 
 EVE Online, the EVE logo, EVE and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts or other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners. CCP hf. has granted permission to Robin Ellis to use EVE Online and all associated logos and designs for promotional and information purposes on its website but does not endorse, and is not in any way affiliated with, Robin Ellis. CCP is in no way responsible for the content on or functioning of this data, nor can it be liable for any damage arising from the use of this data.
 
+# Icons
+
+Icons taken from the offical CCP image dump have been provided with sane names and optimised with [ImageOptim](https://imageoptim.com/mac).
+
 # Stats
 
 ## Systems
 
-* Systems 8435
-* J-space 2603
-* DevTest 401
-* UUA-F4  107
-* K-space 5324
+* Systems: 8435
+* J-space: 2603
+* Dev/Test: 401
+* UUA-F4:  107
+* K-space: 5324
 
-## Systems in K-space
+## K-space planet count
 
-* No planets 0
-* 1 planet 8
-* 2 planets 15
-* 3 planets 25
-* 4 planets 78
-* 5 planets 207
-* 6 planets 463
-* 7 planets 806
-* 8 planets 1095
-* 9 planets 1062
-* 10 planets 738
-* 11 planets 457
-* 12 planets 239
-* 13 planets 91
-* 14 planets 30
-* 15 planets 6
-* 16 planets 3
-* 17 planets 0
-* 18 planets 1
+All K-space systems have at least one planet.
+
+* 1 planet: 8 systems
+* 2 planets: 15
+* 3 planets: 25
+* 4 planets: 78
+* 5 planets: 207
+* 6 planets: 463
+* 7 planets: 806
+* 8 planets: 1095
+* 9 planets: 1062
+* 10 planets: 738
+* 11 planets: 457
+* 12 planets: 239
+* 13 planets: 91
+* 14 planets: 30
+* 15 planets: 6
+* 16 planets: 3
+* 17 planets: 0
+* 18 planets: 1
