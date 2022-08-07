@@ -14,7 +14,7 @@ So, given it is likely CCP have de-prioritised their efforts to provide full sta
 
 # Disclaimer
 
-This data is sourced from CCP (their copyright notice below). I make no claims to this data. I present this data for you to use as you wish on the understand that I offer no warranties of any kind. None. Zero. Do with this data as you wish subject to CCP terms.
+This data is sourced from CCP (their copyright notice below). I make no claims to this data. I present this data for you to use as you wish on the understanding that I offer no warranties of any kind. None. Zero. Do with this data as you wish subject to CCP terms.
 
 # Data as CSV or SQL
 
