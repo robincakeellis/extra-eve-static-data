@@ -4,13 +4,7 @@ EVE ONLINE STATIC DATA FOR **PLANETS PER SYSTEM**.
 
 ## WHAT?
 
-CCP issues static data roughly once per month. One dataset not in there - despite being very static indeed - is the list of planets for each system. There are also moons and asteroid belts per system and these are also not included in the static data dump.
-
-Planet data can be found through the CCP Swagger interface [here](https://esi.evetech.net/ui/?version=latest#) which is fine I guess for a casual frontend making the odd call for some data. It is total arse for serious work with planets and requires thousands of calls to get regular K-space and even more calls to get wormhole J-space, not to mention the irrelevant dev/test-only systems that are not necessary for the regular player.
-
-So, given it is likely CCP have de-prioritised their efforts to provide full static data, I decided to hit that Swagger API like a boss. It took a while from my slow Asian connection (big up Anajak Khmer). I hope to integrate this data as system trivia on [EVEMissioneer](https://EVEMissioneer.com).
-
-Approximate number of calls that made to the Swagger API: 53,677. (List of systems; each system; each planet for valid K-space system; and the nine types of planet).
+Planet data can be found through the CCP Swagger interface [here](https://esi.evetech.net/ui/?version=latest#). Approximate number of calls that made to the Swagger API: 53,677. (List of systems; each system; each planet for valid K-space system; and the nine types of planet).
 
 # Disclaimer
 
