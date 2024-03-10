@@ -4,23 +4,13 @@ EVE ONLINE STATIC DATA FOR **PLANETS PER SYSTEM**.
 
 ## WHAT?
 
-Planet data can be found through the CCP Swagger interface [here](https://esi.evetech.net/ui/?version=latest#). Approximate number of calls that made to the Swagger API: 53,677. (List of systems; each system; each planet for valid K-space system; and the nine types of planet).
+Planet data extracted from SDE as at 2024-Mar.
 
 # Disclaimer
 
 This data is sourced from CCP (their copyright notice below). I make no claims to the data. I present this data for you to use as you wish on the understanding that I offer no warranties of any kind. None. Zero. Do with this data as you wish subject to CCP terms and conditions.
 
 # Data as CSV or SQL
-
-## First: systems not included
-
-* Any system id >= 31000001 including wormhole J-Space
-
-* Any system where constellation id >= 21000001
-
-* Any system where constellation id in range 20000047 to 20000062 inclusive (to exclude region `UUA-F4`)
-
-Some planet data might have crept in before I got the filtering 100% but quality meets my definition of "ok".
 
 ## planets.csv
 
@@ -35,9 +25,9 @@ solarSystemID	planetID	planetName	planetTypeID	typeName	typeIconID
 30000001	40000007	Tanoo III	2016		Barren		10135
 ```
 
-## mapPlanets.sql
+## planets.sql
 
-Planet data in MySQL format. May work fine in other SQL databases. Inserts are bulked by system and there are over 5000 of them.
+Planet data in MySQL format. May work fine in other SQL databases. Uses bulk inserts 500 planets at a time.
 
 # CCP hf. Copyright Notice
 
@@ -46,36 +36,3 @@ EVE Online, the EVE logo, EVE and all associated logos and designs are the intel
 # Icons
 
 Icons taken from the offical CCP image dump have been provided with sane names and optimised with [ImageOptim](https://imageoptim.com/mac).
-
-# Stats
-
-## Systems
-
-* Systems: 8435
-* J-space: 2603
-* Dev/Test: 401
-* UUA-F4:  107
-* K-space: 5324
-
-## K-space planet count
-
-All K-space systems have at least one planet.
-
-* 1 planet: 8 systems
-* 2 planets: 15
-* 3 planets: 25
-* 4 planets: 78
-* 5 planets: 207
-* 6 planets: 463
-* 7 planets: 806
-* 8 planets: 1095
-* 9 planets: 1062
-* 10 planets: 738
-* 11 planets: 457
-* 12 planets: 239
-* 13 planets: 91
-* 14 planets: 30
-* 15 planets: 6
-* 16 planets: 3
-* 17 planets: 0
-* 18 planets: 1
